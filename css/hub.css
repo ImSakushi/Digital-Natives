@@ -60,7 +60,7 @@ header {
 .navbar{
     background-image: url(../images/gradient.png);
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: 100%;
     padding-top: 2vw;
     display: flex;
     transition: transform 0.3s ease-out;
@@ -183,6 +183,26 @@ p {
     font-size: 2.9vw;
 }
 
+.titre7 {
+    font-family: "GothamBook";
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    margin-top: 10vw;
+    margin-left: 16vw;
+    font-size: 2.9vw;
+}
+
+.nom-intervenant {
+    font-family: "GothamBook";
+    align-items: center;
+    justify-content: center;
+    /* height: 3vw;
+    margin-top: 10vw; */
+    font-size: 1.7vw;
+    white-space: nowrap;
+}
+
 .paragraphe {
     font-family: "GothamBook";
     padding-left: 13vw;
@@ -222,6 +242,11 @@ p {
     margin-left: 13vw;
 }
 
+.bouton:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.132);
+}
+
 
 .blocimage {
     display: flex;
@@ -251,4 +276,63 @@ p {
     position: absolute;
     left: 55rem;
     bottom: -113rem;
+}
+
+.intervenant1 {
+    margin-top: 2.5vw;
+    margin-left: 16vw;
+    display: flex;
+    gap: 30vw;
+}
+
+.intervenant2 {
+    margin-left: 16vw;
+    display: flex;
+    gap: 20vw;
+}
+
+.intervenant3 {
+    margin-left: 16vw;
+    display: flex;
+    gap: 20vw;
+}
+
+.intervenant4 {
+    margin-left: 16vw;
+    display: flex;
+    gap: 20vw;
+}
+
+.intervenant5 {
+    margin-left: 16vw;
+    display: flex;
+    gap: 20vw;
+}
+
+.intervenantbox {
+    display: flex;
+    gap: 34vw;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.20);
+    padding: 1vw;
+}
+
+
+.fleche {
+    width: 1.5vw;
+    fill-opacity: 0.5;
+}
+
+.fleche:hover {
+    fill-opacity: 1;
+}
+
+.voirpluscss:hover {
+    text-decoration: underline;
+}
+
+.voirpluscss {
+    font-size: 1.3vw;
+    font-family: "GothamBook";
+    padding-top: 4vw;
+    padding-left: 48vw;
 }

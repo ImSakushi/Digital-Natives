@@ -69,3 +69,16 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+
+document.getElementById("voirplus").addEventListener("click", function() {
+  if (hide.style.display === 'block') {
+    hide.style.display = 'none';
+    voirplus.textContent = 'voir plus';
+  } else {
+    hide.style.display = 'block';
+    voirplus.textContent = 'voir moins';
+  }
+});
+
