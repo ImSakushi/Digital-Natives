@@ -103,7 +103,8 @@ a:visited {
 
 a:hover{
     font-size: 1.2vw;
-    margin-right: 17%;
+    margin-right: 6vw;
+    letter-spacing: 0.1vw;
 }
 
 p {
