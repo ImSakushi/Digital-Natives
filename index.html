@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUB Colloque</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/hub.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="JS/base.js" defer></script>
 </head>
 <body>
+
+<div class="premiere-partie">
+    <p>.</p>
     <header>
     <div class="navbar">
-        <div class="navbard">
-            <a href ="#" class="bar">Accueil</a>
-            <a href ="wip.html" class="bar">Archive</a>
-            <img class="logo" src="images/Logo.svg" alt="Logo Digital Natives, un N mélangée à un D">
-            <a href ="#" class="bar">Contact</a>
-            <a href ="#" class="bar">C'est quoi ?</a>
-        </div>
+            <a href ="#" class="bar"><img class="logo" src="images/Logo.svg" alt="Logo Digital Natives, un N mélangée à un D"></a>
+            <a href="#presentation" class="bar" data-scroll="presentation">Présentation</a>
+            <a href="#derniercolloque" class="bar" data-scroll="derniercolloque">Dernier colloque</a>
+            <a href ="#" class="bar">Archives</a>
+            <a href ="#" class="bar">Intervenant</a>
     </div>
 </header>
 
     <div class="corps">
-        <p class="titre">Accueil</p>
-        <div class="logo-position">
-            <img class="logo-colloque" src="images/logo colloque.svg" alt="logo colloque">
-        </div>
-        <p class="titre2">Colloque MMI 2023</p>
+        <p class="titre" id="presentation">Le colloque MMI</p>
+        <p class="titre2" >DIGITAL NATIVES</p>
     </div>
+</div>
+<div class="deuxieme-partie">
+    <div class="bloc">
+        <div class="bloctexte">
+            <p class="titre3">UN ÉVÉNEMENT ENGAGÉ</p>
+            <p class ="paragraphe">Sensibiliser sur des <em>sujets sociétaux</em> en lien avec le numérique:<br>
+                c’est le défi que se sont lancés les étudiants passionnés de <em>Métiers du<br>
+                Multimédia et de l’Internet (MMI)</em> de l’université Bordeaux Montaigne.<br>
+                Digital Natives , une journée scientifique qui se dédie à <em>éveiller les<br>
+                consciences</em> des utilisateurs dans un monde où la technologie est de<br>
+                plus en plus prépondérante.</p>
+        </div>
+        <img class="imageparagraphe" src="images/placeholder.png" alt="placeholder">
+    </div>
+</div>
+<div class="troisieme-partie">
+    <div class="bloc">
+        <div class="bloctexte">
+            <p class="titre4" id="derniercolloque">Dernier colloque en date</p>
+            <p class="titre5" >Handicap & Numérique</p>
+    </div>
+        <div class="boutoncontour">
+            <a href="#"> <p class="bouton" >DÉCOUVRIR</p></a>
+        </div>
+    </div>
+    <p class="titre6">Archives</p>
+    <div class="blocimage">
+        <a><img class="carte2023" onclick="autoScroll()" src="images/placeholder carte.png" alt="carte 2023"></a>
+        <a href="#"><img class="carte2022" src="images/image2022text.png" alt="carte 2022"></a>
+    </div>
+</div>
 </body>
 </html>
 
