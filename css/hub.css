@@ -325,6 +325,11 @@ p {
 .voirpluscss {
     font-size: 1.3vw;
     font-family: 'Gotham Light', sans-serif;
-    padding-top: 4vw;
-    padding-left: 48vw;
+}
+
+.voirplus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
 }
