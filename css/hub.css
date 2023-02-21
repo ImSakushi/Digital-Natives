@@ -8,15 +8,6 @@
     src: url('../fonts/FuturaPTHeavy.otf');
 }
 
-@font-face {
-    font-family: 'GothamBook';
-    src: url('../fonts/GothamBook.ttf');
-}
-
-@font-face {
-    font-family: 'GothamBold';
-    src: url('../fonts/GothamBold.otf');
-}
 
 @font-face {
     font-family: 'Adieu';
@@ -75,7 +66,7 @@ header {
 
 a {
     color: white;
-    font-family: 'GothamBook';
+    font-family: 'Gotham Light';
     font-size: 1vw;
 }
 .logo {
@@ -102,7 +93,7 @@ a {
 
 .navbard a {
     color: white;
-    font-family: 'GothamBook';
+    font-family: 'Gotham Light', sans-serif;
     font-size: 1vw;
     margin-right: 2vw;
     white-space: nowrap;
@@ -132,7 +123,7 @@ p {
 }
 
 .titre {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     align-items: center;
     justify-content: center;
     height: 3vw;
@@ -142,7 +133,7 @@ p {
 }
 
 .titre2 {
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
     align-items: center;
     justify-content: center;
     margin-left: 5vw;
@@ -150,14 +141,14 @@ p {
 }
 
 .titre3 {
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
     padding-left: 13vw;
     font-size: 1.7vw;
     padding-top: 13vw;
 }
 
 .titre4 {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     align-items: center;
     justify-content: center;
     height: 3vw;
@@ -167,14 +158,14 @@ p {
 }
 
 .titre5 {
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
     margin-left: 16vw;
     font-size: 4vw;
     padding-top: 0.5vw;
 }
 
 .titre6 {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     align-items: center;
     justify-content: center;
     height: 3vw;
@@ -184,7 +175,7 @@ p {
 }
 
 .titre7 {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     align-items: center;
     justify-content: center;
     height: 3vw;
@@ -194,7 +185,7 @@ p {
 }
 
 .nom-intervenant {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     align-items: center;
     justify-content: center;
     /* height: 3vw;
@@ -204,14 +195,14 @@ p {
 }
 
 .paragraphe {
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     padding-left: 13vw;
     padding-top: 1vw;
     font-size: 1.11vw;
 }
 
 .paragraphe em {
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
 }
 
 .bloctexte {
@@ -236,7 +227,7 @@ p {
     padding-right: 1.8vw;
     border: 1px solid white;
     border-radius: 5px / 5px;
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     margin-top: 43vw;
     font-size: 1.4vw;
     margin-left: 13vw;
@@ -266,13 +257,13 @@ p {
 
 .textecarte {
     font-size: 1.8vw;
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
     position: absolute;
 }
 
 .textecarte2 {
     font-size: 1.6vw;
-    font-family: "GothamBold";
+    font-family: "Gotham Black";
     position: absolute;
     left: 55rem;
     bottom: -113rem;
@@ -328,11 +319,12 @@ p {
 
 .voirpluscss:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .voirpluscss {
     font-size: 1.3vw;
-    font-family: "GothamBook";
+    font-family: 'Gotham Light', sans-serif;
     padding-top: 4vw;
     padding-left: 48vw;
 }
