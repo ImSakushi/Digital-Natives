@@ -341,7 +341,17 @@ p {
         flex-direction: column-reverse;
         align-items: center;
     }
+    .titre3 {
+        font-size: 4.7vw;
+        text-align: center;
+    }
+    .paragraphe {
+        font-size: 1.9vw;
+        text-align: center;
+    }
     .imageparagraphe {
         margin-bottom: 1.5vw;
+        width: 50vw;
+        height: 27vw;
     }
 }
