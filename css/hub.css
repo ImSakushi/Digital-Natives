@@ -346,7 +346,7 @@ p {
     .corps {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 14vw;
+        margin-top: 21vw;
     }
     .titre {
         margin-top: 1vw;
@@ -357,15 +357,16 @@ p {
     }
     .titre2 {
         text-align: center;
-        font-size: 11.2vw;
+        font-size: 17.2vw;
         margin-left: initial;
-        line-height: 11vw;
+        line-height: 17vw;
     }
     .bloc {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: 24vw;
     }
     .bloc2 {
         display: flex;
@@ -400,7 +401,9 @@ p {
         align-items: center;
     }
     .blocimage {
+        display: flex;
         margin-top: 5vw;
+        flex-direction: column;
     }
     .bloctexte {
         text-align: center;
