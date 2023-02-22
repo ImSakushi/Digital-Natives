@@ -133,7 +133,7 @@ p {
 }
 
 .card {
-    max-width: 70vw;
+    max-width: 39vw;
 }
 
 .titre2 {
@@ -347,6 +347,9 @@ p {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 21vw;
+    }
+    .card {
+        max-width: 70vw;
     }
     .titre {
         margin-top: 1vw;
