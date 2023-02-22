@@ -132,6 +132,10 @@ p {
     font-size: 3vw;
 }
 
+.card {
+    max-width: 38vw;
+}
+
 .titre2 {
     font-family: "Gotham Black";
     align-items: center;
@@ -165,7 +169,6 @@ p {
     justify-content: center;
     height: 3vw;
     margin-top: 15vw;
-    margin-left: 16vw;
     font-size: 2.9vw;
 }
 
@@ -208,6 +211,12 @@ p {
     justify-content: space-evenly;
 }
 
+.bloc2 {
+    display: flex;
+    margin-top: 12vw;
+    justify-content: space-evenly;
+}
+
 .imageparagraphe {
     width: 28vw;
     height: 15vw;
@@ -221,9 +230,9 @@ p {
     border: 1px solid white;
     border-radius: 5px / 5px;
     font-family: 'Gotham Light', sans-serif;
-    margin-top: 43vw;
+    margin-top: 3vw;
     font-size: 1.4vw;
-    margin-left: 13vw;
+    margin-left: 7vw;
 }
 
 .bouton:hover {
@@ -234,7 +243,6 @@ p {
 
 .blocimage {
     display: flex;
-    margin-left: 16vw;
     margin-top: 2vw;
     gap: 2vw;
 
@@ -327,13 +335,31 @@ p {
     margin-top: 2vw;
 }
 
+.archives {
+    display: flex;
+    flex-direction: column;
+    margin-left: 11vw;
+    margin-right: 9vw;
+}
+
 @media (max-width: 768px) {
+    .corps {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 14vw;
+    }
     .titre {
-        font-size: 3.5vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        font-size: 5.5vw;
         text-align: center;
+        margin-left: initial;
     }
     .titre2 {
         text-align: center;
+        font-size: 11.2vw;
+        margin-left: initial;
+        line-height: 11vw;
     }
     .bloc {
         display: flex;
@@ -341,17 +367,50 @@ p {
         flex-direction: column-reverse;
         align-items: center;
     }
+    .bloc2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
     .titre3 {
-        font-size: 4.7vw;
+        font-size: 6vw;
         text-align: center;
     }
+    .titre4 {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .titre5 {
+        font-size: 6vw;
+    }
+    .titre6 {
+        font-size: 5vw;
+    }
     .paragraphe {
-        font-size: 1.9vw;
+        font-size: 2.5vw;
         text-align: center;
     }
     .imageparagraphe {
         margin-bottom: 1.5vw;
-        width: 50vw;
-        height: 27vw;
+        width: 65vw;
+        height: 34vw;
+    }
+    .archives {
+        align-items: center;
+    }
+    .blocimage {
+        margin-top: 5vw;
+    }
+    .bloctexte {
+        text-align: center;
+    }
+    .bouton {
+        padding-top: 1.6vw;
+        padding-bottom: 1.6vw;
+        padding-left: 2.8vw;
+        padding-right: 2.8vw;
+        margin-left: initial;
+        font-size: 3.4vw;
     }
 }
