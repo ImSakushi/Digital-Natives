@@ -142,9 +142,7 @@ p {
 
 .titre3 {
     font-family: "Gotham Black";
-    padding-left: 13vw;
     font-size: 1.7vw;
-    padding-top: 13vw;
 }
 
 .titre4 {
@@ -152,14 +150,11 @@ p {
     align-items: center;
     justify-content: center;
     height: 3vw;
-    margin-top: 40vw;
-    margin-left: 16vw;
     font-size: 2.9vw;
 }
 
 .titre5 {
     font-family: "Gotham Black";
-    margin-left: 16vw;
     font-size: 4vw;
     padding-top: 0.5vw;
 }
@@ -196,8 +191,6 @@ p {
 
 .paragraphe {
     font-family: 'Gotham Light', sans-serif;
-    padding-left: 13vw;
-    padding-top: 1vw;
     font-size: 1.11vw;
 }
 
@@ -211,13 +204,13 @@ p {
 
 .bloc {
     display: flex;
+    margin-top: 12vw;
+    justify-content: space-evenly;
 }
 
 .imageparagraphe {
     width: 28vw;
     height: 15vw;
-    margin-left: 7vw;
-    margin-top: 10vw;
 }
 
 .bouton {
@@ -332,4 +325,23 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 2vw;
+}
+
+@media (max-width: 768px) {
+    .titre {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    .titre2 {
+        text-align: center;
+    }
+    .bloc {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .imageparagraphe {
+        margin-bottom: 1.5vw;
+    }
 }
