@@ -379,6 +379,30 @@ p {
     font-family: "Gotham Black";
 }
 
+.titre-archives {
+    position: absolute;
+    font-size: 2vw;
+    font-family: "Gotham Black";
+    color: white;
+}
+
+.date-archives {
+    position: absolute;
+    font-size: 1.2vw;
+    font-family: "Gotham";
+    color: white;
+}
+
+.card-archives-1 {
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.card-archives-2 {
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
 @media (max-width: 768px) {
     .corps {
         display: flex;
@@ -672,7 +696,7 @@ div.maps {
       flex-direction: column;
       transition: transform 0.5s ease-in-out;
       text-align: center;
-      background: #fff;
+      background-image: url("/HUB/images/Rectangle 1.png");
     }
     
     .navbar .menu-items li {
@@ -710,3 +734,7 @@ div.maps {
       color: #000000;
     }
   }
+
+
+
+ 
